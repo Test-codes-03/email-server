@@ -52,7 +52,7 @@ app.post(
       // Email content
       const mailOptions = {
         from: `"Matrimony Form" <${data.email}>`,
-        to: "mvishnupalanivel@gmail.com", // Where you want to receive the form data
+        to: "allgoundersmatrimony@gmail.com", // Where you want to receive the form data
         subject: "New Matrimony Registration",
         html: `
         <p>A message by <strong>${data.fullName}</strong> has been received. Kindly respond at your earliest convenience.</p>
